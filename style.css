@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .intro ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and font */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set max width for content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Style the sections */
+  section {
+    margin: 20px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: none;
+  }
+  
+  section ul li {
+    margin-bottom: 10px;
+  }
+  
+  section ul li h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  section ul li p {
+    margin-bottom: 5px;
+  }
+  
+  section ul li ul {
+    margin-left: 20px;
+  }
+  
+  section ul li ul li {
+    margin-bottom: 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style for sections */
+section {
+    padding: 40px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  section li h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  section li p {
+    margin: 0;
+    color: #666;
+  }
+  
+  section li ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  section li ul li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  section li ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  section li ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  section li ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Project Section */
+section#projects {
+  padding: 50px 0;
+}
+
+section#projects h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+section#projects li {
+  margin-bottom: 50px;
+}
+
+section#projects h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section#projects p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section#projects ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section#projects a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section#projects a:hover {
+  color: #777;
+}
+
+
